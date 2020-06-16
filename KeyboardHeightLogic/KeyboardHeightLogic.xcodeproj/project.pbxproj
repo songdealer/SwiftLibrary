@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05491484522573F4B8E0ABDD /* Pods_KeyboardHeightLogic_KeyboardHeightLogicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25F611F62BD1A566C2EDF9C /* Pods_KeyboardHeightLogic_KeyboardHeightLogicUITests.framework */; };
+		8AE9B7C4358B7628018D9B1E /* Pods_KeyboardHeightLogicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5186F46BD7295AA4248C1B03 /* Pods_KeyboardHeightLogicTests.framework */; };
+		C88F11E028018FF5C8974863 /* Pods_KeyboardHeightLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FA3538883F90D5A340BC37 /* Pods_KeyboardHeightLogic.framework */; };
+		CE6E1A0B2498BBCE00E89EF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E1A0A2498BBCE00E89EF1 /* AppDelegate.swift */; };
+		CE6E1A0D2498BBCE00E89EF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E1A0C2498BBCE00E89EF1 /* SceneDelegate.swift */; };
+		CE6E1A0F2498BBCE00E89EF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E1A0E2498BBCE00E89EF1 /* ViewController.swift */; };
+		CE6E1A122498BBCE00E89EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6E1A102498BBCE00E89EF1 /* Main.storyboard */; };
+		CE6E1A142498BBD100E89EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6E1A132498BBD100E89EF1 /* Assets.xcassets */; };
+		CE6E1A172498BBD100E89EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6E1A152498BBD100E89EF1 /* LaunchScreen.storyboard */; };
+		CE6E1A222498BBD100E89EF1 /* KeyboardHeightLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E1A212498BBD100E89EF1 /* KeyboardHeightLogicTests.swift */; };
+		CE6E1A2D2498BBD100E89EF1 /* KeyboardHeightLogicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E1A2C2498BBD100E89EF1 /* KeyboardHeightLogicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6E1A1E2498BBD100E89EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6E19FF2498BBCE00E89EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6E1A062498BBCE00E89EF1;
+			remoteInfo = KeyboardHeightLogic;
+		};
+		CE6E1A292498BBD100E89EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6E19FF2498BBCE00E89EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6E1A062498BBCE00E89EF1;
+			remoteInfo = KeyboardHeightLogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A308FE3F86B3AD1FD236C8 /* Pods-KeyboardHeightLogic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardHeightLogic.release.xcconfig"; path = "Target Support Files/Pods-KeyboardHeightLogic/Pods-KeyboardHeightLogic.release.xcconfig"; sourceTree = "<group>"; };
+		5186F46BD7295AA4248C1B03 /* Pods_KeyboardHeightLogicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardHeightLogicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634A4BA768C28F31F6FDEA34 /* Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.release.xcconfig"; path = "Target Support Files/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7035E67D0F47E3DC5514C945 /* Pods-KeyboardHeightLogicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardHeightLogicTests.release.xcconfig"; path = "Target Support Files/Pods-KeyboardHeightLogicTests/Pods-KeyboardHeightLogicTests.release.xcconfig"; sourceTree = "<group>"; };
+		8330EA5182C91752B2B7D5B5 /* Pods-KeyboardHeightLogicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardHeightLogicTests.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardHeightLogicTests/Pods-KeyboardHeightLogicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6E1A072498BBCE00E89EF1 /* KeyboardHeightLogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardHeightLogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6E1A0A2498BBCE00E89EF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE6E1A0C2498BBCE00E89EF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE6E1A0E2498BBCE00E89EF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE6E1A112498BBCE00E89EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6E1A132498BBD100E89EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6E1A162498BBD100E89EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6E1A182498BBD100E89EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6E1A1D2498BBD100E89EF1 /* KeyboardHeightLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardHeightLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6E1A212498BBD100E89EF1 /* KeyboardHeightLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHeightLogicTests.swift; sourceTree = "<group>"; };
+		CE6E1A232498BBD100E89EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6E1A282498BBD100E89EF1 /* KeyboardHeightLogicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardHeightLogicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6E1A2C2498BBD100E89EF1 /* KeyboardHeightLogicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHeightLogicUITests.swift; sourceTree = "<group>"; };
+		CE6E1A2E2498BBD100E89EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE2FD7EF29E6AB9F9A7FCDD /* Pods-KeyboardHeightLogic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardHeightLogic.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardHeightLogic/Pods-KeyboardHeightLogic.debug.xcconfig"; sourceTree = "<group>"; };
+		F25F611F62BD1A566C2EDF9C /* Pods_KeyboardHeightLogic_KeyboardHeightLogicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardHeightLogic_KeyboardHeightLogicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FA3538883F90D5A340BC37 /* Pods_KeyboardHeightLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardHeightLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69117A2B8A4D5ACCD60704E /* Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6E1A042498BBCE00E89EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88F11E028018FF5C8974863 /* Pods_KeyboardHeightLogic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6E1A1A2498BBD100E89EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE9B7C4358B7628018D9B1E /* Pods_KeyboardHeightLogicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6E1A252498BBD100E89EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05491484522573F4B8E0ABDD /* Pods_KeyboardHeightLogic_KeyboardHeightLogicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C925283CB41308F08F8AA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FA3538883F90D5A340BC37 /* Pods_KeyboardHeightLogic.framework */,
+				F25F611F62BD1A566C2EDF9C /* Pods_KeyboardHeightLogic_KeyboardHeightLogicUITests.framework */,
+				5186F46BD7295AA4248C1B03 /* Pods_KeyboardHeightLogicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8A9D7C7B32F36A56121EB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBE2FD7EF29E6AB9F9A7FCDD /* Pods-KeyboardHeightLogic.debug.xcconfig */,
+				13A308FE3F86B3AD1FD236C8 /* Pods-KeyboardHeightLogic.release.xcconfig */,
+				F69117A2B8A4D5ACCD60704E /* Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.debug.xcconfig */,
+				634A4BA768C28F31F6FDEA34 /* Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.release.xcconfig */,
+				8330EA5182C91752B2B7D5B5 /* Pods-KeyboardHeightLogicTests.debug.xcconfig */,
+				7035E67D0F47E3DC5514C945 /* Pods-KeyboardHeightLogicTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE6E19FE2498BBCE00E89EF1 = {
+			isa = PBXGroup;
+			children = (
+				CE6E1A092498BBCE00E89EF1 /* KeyboardHeightLogic */,
+				CE6E1A202498BBD100E89EF1 /* KeyboardHeightLogicTests */,
+				CE6E1A2B2498BBD100E89EF1 /* KeyboardHeightLogicUITests */,
+				CE6E1A082498BBCE00E89EF1 /* Products */,
+				BE8A9D7C7B32F36A56121EB3 /* Pods */,
+				35C925283CB41308F08F8AA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6E1A082498BBCE00E89EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E1A072498BBCE00E89EF1 /* KeyboardHeightLogic.app */,
+				CE6E1A1D2498BBD100E89EF1 /* KeyboardHeightLogicTests.xctest */,
+				CE6E1A282498BBD100E89EF1 /* KeyboardHeightLogicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6E1A092498BBCE00E89EF1 /* KeyboardHeightLogic */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E1A0A2498BBCE00E89EF1 /* AppDelegate.swift */,
+				CE6E1A0C2498BBCE00E89EF1 /* SceneDelegate.swift */,
+				CE6E1A0E2498BBCE00E89EF1 /* ViewController.swift */,
+				CE6E1A102498BBCE00E89EF1 /* Main.storyboard */,
+				CE6E1A132498BBD100E89EF1 /* Assets.xcassets */,
+				CE6E1A152498BBD100E89EF1 /* LaunchScreen.storyboard */,
+				CE6E1A182498BBD100E89EF1 /* Info.plist */,
+			);
+			path = KeyboardHeightLogic;
+			sourceTree = "<group>";
+		};
+		CE6E1A202498BBD100E89EF1 /* KeyboardHeightLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E1A212498BBD100E89EF1 /* KeyboardHeightLogicTests.swift */,
+				CE6E1A232498BBD100E89EF1 /* Info.plist */,
+			);
+			path = KeyboardHeightLogicTests;
+			sourceTree = "<group>";
+		};
+		CE6E1A2B2498BBD100E89EF1 /* KeyboardHeightLogicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E1A2C2498BBD100E89EF1 /* KeyboardHeightLogicUITests.swift */,
+				CE6E1A2E2498BBD100E89EF1 /* Info.plist */,
+			);
+			path = KeyboardHeightLogicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6E1A062498BBCE00E89EF1 /* KeyboardHeightLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6E1A312498BBD100E89EF1 /* Build configuration list for PBXNativeTarget "KeyboardHeightLogic" */;
+			buildPhases = (
+				70AD3715502B6CDBD072F5D8 /* [CP] Check Pods Manifest.lock */,
+				CE6E1A032498BBCE00E89EF1 /* Sources */,
+				CE6E1A042498BBCE00E89EF1 /* Frameworks */,
+				CE6E1A052498BBCE00E89EF1 /* Resources */,
+				10217957F3FFA1CE82795CEB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardHeightLogic;
+			productName = KeyboardHeightLogic;
+			productReference = CE6E1A072498BBCE00E89EF1 /* KeyboardHeightLogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6E1A1C2498BBD100E89EF1 /* KeyboardHeightLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6E1A342498BBD100E89EF1 /* Build configuration list for PBXNativeTarget "KeyboardHeightLogicTests" */;
+			buildPhases = (
+				05E5FBE684D07CA622580104 /* [CP] Check Pods Manifest.lock */,
+				CE6E1A192498BBD100E89EF1 /* Sources */,
+				CE6E1A1A2498BBD100E89EF1 /* Frameworks */,
+				CE6E1A1B2498BBD100E89EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6E1A1F2498BBD100E89EF1 /* PBXTargetDependency */,
+			);
+			name = KeyboardHeightLogicTests;
+			productName = KeyboardHeightLogicTests;
+			productReference = CE6E1A1D2498BBD100E89EF1 /* KeyboardHeightLogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE6E1A272498BBD100E89EF1 /* KeyboardHeightLogicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6E1A372498BBD100E89EF1 /* Build configuration list for PBXNativeTarget "KeyboardHeightLogicUITests" */;
+			buildPhases = (
+				B572CC953714BE5185160F40 /* [CP] Check Pods Manifest.lock */,
+				CE6E1A242498BBD100E89EF1 /* Sources */,
+				CE6E1A252498BBD100E89EF1 /* Frameworks */,
+				CE6E1A262498BBD100E89EF1 /* Resources */,
+				01BA59710A372BEDEA9F54B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6E1A2A2498BBD100E89EF1 /* PBXTargetDependency */,
+			);
+			name = KeyboardHeightLogicUITests;
+			productName = KeyboardHeightLogicUITests;
+			productReference = CE6E1A282498BBD100E89EF1 /* KeyboardHeightLogicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6E19FF2498BBCE00E89EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MinG._.;
+				TargetAttributes = {
+					CE6E1A062498BBCE00E89EF1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					CE6E1A1C2498BBD100E89EF1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CE6E1A062498BBCE00E89EF1;
+					};
+					CE6E1A272498BBD100E89EF1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CE6E1A062498BBCE00E89EF1;
+					};
+				};
+			};
+			buildConfigurationList = CE6E1A022498BBCE00E89EF1 /* Build configuration list for PBXProject "KeyboardHeightLogic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6E19FE2498BBCE00E89EF1;
+			productRefGroup = CE6E1A082498BBCE00E89EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6E1A062498BBCE00E89EF1 /* KeyboardHeightLogic */,
+				CE6E1A1C2498BBD100E89EF1 /* KeyboardHeightLogicTests */,
+				CE6E1A272498BBD100E89EF1 /* KeyboardHeightLogicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6E1A052498BBCE00E89EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6E1A172498BBD100E89EF1 /* LaunchScreen.storyboard in Resources */,
+				CE6E1A142498BBD100E89EF1 /* Assets.xcassets in Resources */,
+				CE6E1A122498BBCE00E89EF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6E1A1B2498BBD100E89EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6E1A262498BBD100E89EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01BA59710A372BEDEA9F54B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05E5FBE684D07CA622580104 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardHeightLogicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10217957F3FFA1CE82795CEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightLogic/Pods-KeyboardHeightLogic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightLogic/Pods-KeyboardHeightLogic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightLogic/Pods-KeyboardHeightLogic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70AD3715502B6CDBD072F5D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardHeightLogic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B572CC953714BE5185160F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6E1A032498BBCE00E89EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6E1A0F2498BBCE00E89EF1 /* ViewController.swift in Sources */,
+				CE6E1A0B2498BBCE00E89EF1 /* AppDelegate.swift in Sources */,
+				CE6E1A0D2498BBCE00E89EF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6E1A192498BBD100E89EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6E1A222498BBD100E89EF1 /* KeyboardHeightLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6E1A242498BBD100E89EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6E1A2D2498BBD100E89EF1 /* KeyboardHeightLogicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6E1A1F2498BBD100E89EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6E1A062498BBCE00E89EF1 /* KeyboardHeightLogic */;
+			targetProxy = CE6E1A1E2498BBD100E89EF1 /* PBXContainerItemProxy */;
+		};
+		CE6E1A2A2498BBD100E89EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6E1A062498BBCE00E89EF1 /* KeyboardHeightLogic */;
+			targetProxy = CE6E1A292498BBD100E89EF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6E1A102498BBCE00E89EF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6E1A112498BBCE00E89EF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6E1A152498BBD100E89EF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6E1A162498BBD100E89EF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6E1A2F2498BBD100E89EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE6E1A302498BBD100E89EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6E1A322498BBD100E89EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE2FD7EF29E6AB9F9A7FCDD /* Pods-KeyboardHeightLogic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = KeyboardHeightLogic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.KeyboardHeightLogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE6E1A332498BBD100E89EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A308FE3F86B3AD1FD236C8 /* Pods-KeyboardHeightLogic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = KeyboardHeightLogic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.KeyboardHeightLogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE6E1A352498BBD100E89EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8330EA5182C91752B2B7D5B5 /* Pods-KeyboardHeightLogicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = KeyboardHeightLogicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.KeyboardHeightLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardHeightLogic.app/KeyboardHeightLogic";
+			};
+			name = Debug;
+		};
+		CE6E1A362498BBD100E89EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7035E67D0F47E3DC5514C945 /* Pods-KeyboardHeightLogicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = KeyboardHeightLogicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.KeyboardHeightLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardHeightLogic.app/KeyboardHeightLogic";
+			};
+			name = Release;
+		};
+		CE6E1A382498BBD100E89EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69117A2B8A4D5ACCD60704E /* Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = KeyboardHeightLogicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.KeyboardHeightLogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardHeightLogic;
+			};
+			name = Debug;
+		};
+		CE6E1A392498BBD100E89EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634A4BA768C28F31F6FDEA34 /* Pods-KeyboardHeightLogic-KeyboardHeightLogicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = KeyboardHeightLogicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.KeyboardHeightLogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardHeightLogic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6E1A022498BBCE00E89EF1 /* Build configuration list for PBXProject "KeyboardHeightLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6E1A2F2498BBD100E89EF1 /* Debug */,
+				CE6E1A302498BBD100E89EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6E1A312498BBD100E89EF1 /* Build configuration list for PBXNativeTarget "KeyboardHeightLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6E1A322498BBD100E89EF1 /* Debug */,
+				CE6E1A332498BBD100E89EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6E1A342498BBD100E89EF1 /* Build configuration list for PBXNativeTarget "KeyboardHeightLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6E1A352498BBD100E89EF1 /* Debug */,
+				CE6E1A362498BBD100E89EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6E1A372498BBD100E89EF1 /* Build configuration list for PBXNativeTarget "KeyboardHeightLogicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6E1A382498BBD100E89EF1 /* Debug */,
+				CE6E1A392498BBD100E89EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6E19FF2498BBCE00E89EF1 /* Project object */;
+}

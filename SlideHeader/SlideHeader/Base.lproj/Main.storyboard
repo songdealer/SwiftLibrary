@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlideHeader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yxo-ny-Ics">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ptd-7V-zaX" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" id="UYS-Ae-t1s"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Ptd-7V-zaX" firstAttribute="leading" secondItem="yxo-ny-Ics" secondAttribute="leading" id="5yw-WB-mcZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ptd-7V-zaX" secondAttribute="trailing" id="GPm-oy-Pin"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ptd-7V-zaX" secondAttribute="bottom" id="Pyf-h4-2Ou"/>
+                                    <constraint firstItem="Ptd-7V-zaX" firstAttribute="top" secondItem="yxo-ny-Ics" secondAttribute="top" id="VXU-ob-FC4"/>
+                                    <constraint firstItem="Ptd-7V-zaX" firstAttribute="width" secondItem="yxo-ny-Ics" secondAttribute="width" id="cgg-fO-6Xh"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="RdO-Th-GMz"/>
+                                </connections>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdf-Hj-Qpz" userLabel="SlideHeaderView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="0.0"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="H5d-zu-7dy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yxo-ny-Ics" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6ru-MM-ax2"/>
+                            <constraint firstItem="jdf-Hj-Qpz" firstAttribute="trailing" secondItem="yxo-ny-Ics" secondAttribute="trailing" id="8sR-MR-wie"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yxo-ny-Ics" secondAttribute="trailing" id="9zZ-xU-fq3"/>
+                            <constraint firstItem="yxo-ny-Ics" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GAI-Uj-6Od"/>
+                            <constraint firstItem="jdf-Hj-Qpz" firstAttribute="top" secondItem="yxo-ny-Ics" secondAttribute="top" id="HLZ-OF-Rwc"/>
+                            <constraint firstItem="jdf-Hj-Qpz" firstAttribute="leading" secondItem="yxo-ny-Ics" secondAttribute="leading" id="gSH-ZJ-fSb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yxo-ny-Ics" secondAttribute="bottom" id="u70-gI-rjv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="contentViewHeightConstraint" destination="UYS-Ae-t1s" id="g6l-hW-h6k"/>
+                        <outlet property="scrollView" destination="yxo-ny-Ics" id="bsq-EV-gvQ"/>
+                        <outlet property="slideHeaderHeightConstraint" destination="H5d-zu-7dy" id="lTV-yw-B1E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

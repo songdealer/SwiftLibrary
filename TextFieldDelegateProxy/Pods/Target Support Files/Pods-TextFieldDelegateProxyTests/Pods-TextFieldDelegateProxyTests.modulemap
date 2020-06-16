@@ -1,0 +1,6 @@
+framework module Pods_TextFieldDelegateProxyTests {
+  umbrella header "Pods-TextFieldDelegateProxyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
