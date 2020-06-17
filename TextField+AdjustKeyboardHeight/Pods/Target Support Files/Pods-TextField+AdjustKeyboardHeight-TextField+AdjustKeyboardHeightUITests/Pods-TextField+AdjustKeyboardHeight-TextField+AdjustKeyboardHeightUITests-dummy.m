@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TextField_AdjustKeyboardHeight_TextField_AdjustKeyboardHeightUITests : NSObject
+@end
+@implementation PodsDummy_Pods_TextField_AdjustKeyboardHeight_TextField_AdjustKeyboardHeightUITests
+@end
