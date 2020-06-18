@@ -11,7 +11,6 @@
 		0F9740A4B74DFC9ED5C1B2B2 /* Pods_TextField_AdjustKeyboardHeightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA05582E5BE971127F43DE8D /* Pods_TextField_AdjustKeyboardHeightTests.framework */; };
 		572DC5203EFF6C822B793E26 /* Pods_TextField_AdjustKeyboardHeight_TextField_AdjustKeyboardHeightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB8AE8A0ED985864365AF03 /* Pods_TextField_AdjustKeyboardHeight_TextField_AdjustKeyboardHeightUITests.framework */; };
 		CE6CFB542499F79200656656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CFB532499F79200656656 /* AppDelegate.swift */; };
-		CE6CFB562499F79200656656 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CFB552499F79200656656 /* SceneDelegate.swift */; };
 		CE6CFB582499F79200656656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CFB572499F79200656656 /* ViewController.swift */; };
 		CE6CFB5B2499F79200656656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6CFB592499F79200656656 /* Main.storyboard */; };
 		CE6CFB5D2499F79500656656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6CFB5C2499F79500656656 /* Assets.xcassets */; };
@@ -46,7 +45,6 @@
 		C45A1EA7CD50DF5273FC9148 /* Pods-TextField+AdjustKeyboardHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextField+AdjustKeyboardHeight.debug.xcconfig"; path = "Target Support Files/Pods-TextField+AdjustKeyboardHeight/Pods-TextField+AdjustKeyboardHeight.debug.xcconfig"; sourceTree = "<group>"; };
 		CE6CFB502499F79200656656 /* TextField+AdjustKeyboardHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextField+AdjustKeyboardHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6CFB532499F79200656656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE6CFB552499F79200656656 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE6CFB572499F79200656656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE6CFB5A2499F79200656656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6CFB5C2499F79500656656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				CE6CFB532499F79200656656 /* AppDelegate.swift */,
-				CE6CFB552499F79200656656 /* SceneDelegate.swift */,
 				CE6CFB572499F79200656656 /* ViewController.swift */,
 				CE6CFB592499F79200656656 /* Main.storyboard */,
 				CE6CFB5C2499F79500656656 /* Assets.xcassets */,
@@ -409,7 +406,6 @@
 			files = (
 				CE6CFB582499F79200656656 /* ViewController.swift in Sources */,
 				CE6CFB542499F79200656656 /* AppDelegate.swift in Sources */,
-				CE6CFB562499F79200656656 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CK3K4P4V36;
 				INFOPLIST_FILE = "TextField+AdjustKeyboardHeight/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -606,7 +602,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CK3K4P4V36;
 				INFOPLIST_FILE = "TextField+AdjustKeyboardHeight/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -17,19 +17,31 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Simulator - textfield 누를 때마다, return 처음 누를 때 WillShow
+        // iPhone - keyboard가 나올 때마다 WillShow
+        
         let keyboardWillShow = NotificationCenter.default.rx.notification(UIResponder.keyboardWillShowNotification)
         
         let textFieldBeginObservable = rx.shouldBeginEditing
         
-        Observable.zip(keyboardWillShow, textFieldBeginObservable)
+        
+        // iPhone
+        keyboardWillShow
+            .withLatestFrom(textFieldBeginObservable) { ($1, $0) }
             .bind(to: rx.keyboardWillShow)
             .disposed(by: disposeBag)
+        
+        // Simulator
+        /*Observable.zip(textFieldBeginObservable, keyboardWillShow)
+            .bind(to: rx.keyboardWillShow)
+            .disposed(by: disposeBag)*/
+        
         
         let keyboardWillHide = NotificationCenter.default.rx.notification(UIResponder.keyboardWillHideNotification)
         
         keyboardWillHide
             .bind(to: rx.keyboardWillHide)
-        .disposed(by: disposeBag)
+            .disposed(by: disposeBag)
         
         // Do any additional setup after loading the view.
     }
@@ -56,11 +68,11 @@ extension ViewController: UITextFieldDelegate {
 
 extension Reactive where Base: ViewController {
 
-    var keyboardWillShow: Binder<(Notification, UITextField)> {
+    var keyboardWillShow: Binder<(UITextField, Notification)> {
         return Binder(self.base) { target, data in
             
-            let notification = data.0
-            let tf = data.1
+            let tf = data.0
+            let notification = data.1
             
             if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
                 let keyboardRectangle = keyboardFrame.cgRectValue
@@ -93,4 +105,11 @@ extension Reactive where Base: ViewController {
             .map{ $0.first as! UITextField }
         return ControlEvent(events: source)
     }
+    
+    var shouldReturn: ControlEvent<UITextField> {
+        let source = self.methodInvoked(#selector(Base.textFieldShouldReturn))
+            .map{ $0.first as! UITextField }
+        return ControlEvent(events: source)
+    }
+
 }
