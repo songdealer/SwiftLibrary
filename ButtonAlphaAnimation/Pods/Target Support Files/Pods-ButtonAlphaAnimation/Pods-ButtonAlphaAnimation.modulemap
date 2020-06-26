@@ -1,0 +1,6 @@
+framework module Pods_ButtonAlphaAnimation {
+  umbrella header "Pods-ButtonAlphaAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

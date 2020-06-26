@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ButtonAlphaAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRb-0m-Tfj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="414"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mX-if-Wu3">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="414"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" id="XO9-A2-1dN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8mX-if-Wu3" secondAttribute="trailing" id="SFF-S6-QcP"/>
+                                    <constraint firstItem="8mX-if-Wu3" firstAttribute="leading" secondItem="wRb-0m-Tfj" secondAttribute="leading" id="Yho-F9-9Qt"/>
+                                    <constraint firstItem="8mX-if-Wu3" firstAttribute="top" secondItem="wRb-0m-Tfj" secondAttribute="top" id="bd1-KH-M97"/>
+                                    <constraint firstItem="8mX-if-Wu3" firstAttribute="height" secondItem="wRb-0m-Tfj" secondAttribute="height" id="cld-f2-VkM"/>
+                                    <constraint firstAttribute="width" secondItem="wRb-0m-Tfj" secondAttribute="height" id="gzY-kW-nkw"/>
+                                    <constraint firstAttribute="bottom" secondItem="8mX-if-Wu3" secondAttribute="bottom" id="o3w-Hi-EY0"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnN-Xv-pGI">
+                                <rect key="frame" x="184" y="571" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wRb-0m-Tfj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2rr-7E-MMa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wRb-0m-Tfj" secondAttribute="trailing" id="EEK-FY-4Gs"/>
+                            <constraint firstItem="wRb-0m-Tfj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mxJ-c1-kWD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="addButton" destination="gnN-Xv-pGI" id="34l-Px-s13"/>
+                        <outlet property="contentView" destination="8mX-if-Wu3" id="iN5-UL-o6m"/>
+                        <outlet property="contentWidthConstraint" destination="XO9-A2-1dN" id="HSQ-Al-6ey"/>
+                        <outlet property="scrollView" destination="wRb-0m-Tfj" id="SBJ-3o-KeZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="116"/>
+        </scene>
+    </scenes>
+</document>
